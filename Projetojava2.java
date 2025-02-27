@@ -18,7 +18,12 @@ public class Projetojava2 {
      num3= leia.nextFloat();
      media= (num1+num2+num3) /3;
      System.out.print("media dos valores  "+ media);
-      
+         if (media >=6){
+         System.out.println("aluno aprovado");
+     }
+     else{
+         System.out.println("aluno reprovado");
+     }
      
      
      
